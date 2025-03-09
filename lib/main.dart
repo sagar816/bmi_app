@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'BMI App',
       theme: ThemeData(
         colorScheme:
             ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 250, 251, 253)),
@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: const Center(
               child: Text(
-            "Your BMI",
+            "Calculate Your BMI",
             style: TextStyle(
                 color: Color.fromARGB(255, 3, 51, 75),
                 fontWeight: FontWeight.bold),
